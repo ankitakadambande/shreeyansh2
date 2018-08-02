@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shreeyansh DB Software Pvt Ltd</title>
+
+	 <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+<style type="text/css">
+	a:hover
+	{
+		border: 1px navy;
+		color: navy;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	h3:hover
+	{
+		border: 1px navy;
+		color: navy;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	p:hover
+	{
+		border: 1px navy;
+		color: navy;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	#list ul li
+	{
+		list-style: none;
+		/*float: 500px;*/
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<nav style="background-color: powderblue">
+		<div class="row">
+			<div class="col-md-4" style="margin-top: 30px;">
+				<img src="logo.png" style="width: 40%; height: 40%">
+			</div>
+			<div class="col-md-8" style="margin-left: 100px" id="list">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="shreeyansh.html">Home</a></li>
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="block1.html">About Us <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li style="background-color: powderblue; color: navy"><a href="block1.html">About</a></li>
+							
+							<li style="background-color: powderblue; color: navy"><a href="channelpatner.html">Channel Patner</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="news.html">News</a></li>
+						</ul></li>
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">PostgreSQL<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li style="background-color: powderblue; color: navy"><a href="whypostgre.html">Why PostgreSQL</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="postgrefeatures.html">PostgreSQL Features</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="postgreused.html">Where PostgreSQL Used</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="postgrefaq.html">PostgreSQL FAQ</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="postgredownload.html">PostgreSQL Downloads</a></li>
+						</ul></li>
+					<li><a href="block4.html">Case Study</a></li>
+					<li><a href="block5.html">Gallery</a></li>				
+					<li><a href="block6.html">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav><br><br>
+
+	<div id="mycarousel" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-slide-to="0" class="active" data-grid="mycarousel"></li>
+			<li data-slide-to="1" data-grid="mycarousel"></li>
+			<li data-slide-to="2" data-grid="mycarousel"></li>
+			<li data-slide-to="3" data-grid="mycarousel"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="old-3.jpg" style="height: 20%; width: 100%">
+			</div>
+
+			<div class="item">
+				<img src="img1.jpg" style="height: -70%; width: 100%">
+			</div>
+
+			<div class="item">
+				<img src="old-1.jpg" style="height: 20%; width: 100%">
+			</div>
+
+			<div class="item">
+				<img src="13.jpg" style="height: -70%; width: 100%">
+			</div>
+		</div>
+	</div><br><br>
+ 
+	<div style="background-color: powderblue; font-family: Times New Roman;">
+		<h3 style="text-align: center; padding: 10px">SHREEYANSH DB SOFTWARE PVT LTD</h3>
+		<p style="font-family: Times New Roman; padding: 10px; line-height: 1.5; font-size: 20px">SHREEYANSH DB SOFTWARE firm provides single stop database solution. We are rich in serving quality cost effective remote DBA service with help of highly skilled, trained resources under expert guidance. SHREEYANSH stronly beleives that future lies in open source having specialized in PostgreSQL known as "The Worlds Most Advance Open Source Database" providing professional services across various databases.</p>
+	</div><br><br>
+
+	<div class="row">
+		<div class="col-sm-3">
+			<a href="#">
+			<span class="glyphicon glyphicon-tasks" style="font-size: 25px; margin-right: -25px"></span></a>
+			<h4 style="text-align: center; color: navy; font-family: Times New Roman">Your Remote DBA</h4>
+			<p>Databases are always challenging to optimize and maintain. Finding highly skilled DBA for your database is not easy, finding part-time is even harder.
+			Our Remote DBA Services allow you to immediately apply our highly skilled DBAs minds in a highly cost efficient manner.</p>
+		</div>
+
+		<div class="col-sm-3">
+			<a href="#">
+			<span class="glyphicon glyphicon-time" style="font-size: 25px; float: 20px"></span></a>
+			<h4 style="text-align: center; color: navy; font-family: Times New Roman">24*7 DBA Support</h4>
+			<p>Our team of dedicated Database Administrators provide 24 / 7 monitoring and support. Our DBAs use a set of open source tools to monitor client databases, which helps us anticipate problems before they occur, saving you money and downtime.</p>
+		</div>
+
+		<div class="col-sm-3">
+			<a href="#">
+			<span class="glyphicon glyphicon-dashboard" style="font-size: 25px; color: navy margin-right: -25px"></span></p> </a>
+			<h4  style="text-align: center; color: navy; font-family: Times New Roman">Database Recovery</h4>
+			<p>Our Database point-in-time recovery ensures you to recover your database back to the target time. We restore the database from backups prior to the target time for recovery, then uses incremental backups and redo to roll the database forward to the target time.</p>
+		</div>
+
+		<div class="col-sm-3">
+
+			<a href="#"><span class="glyphicon glyphicon-cog" style="font-size: 25px; color: navy margin-right: -25px"></span></a>
+			<h4 style="text-align: center; color: navy; font-family: Times New Roman">Performance Optimization</h4>
+			<p>Using Shreeyansh’s DB health check platform and expert resources, key factors are analyzed generating concrete performance recommendations. The result is the ability to leverage existing infrastructure for increasing data demands.</p>
+		</div>
+	</div>
+	
+	<div style="background-color: powderblue; color: navy">
+		<h1 style="text-align: center; padding: 10px; font-family: Times New Roman">Client Testimonials</h1>
+		<div id="mycarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+			<li data-slide-to="0" class="active" data-grid="mycarousel"></li>
+			<li data-slide-to="1" data-grid="mycarousel"></li>
+			<li data-slide-to="2" data-grid="mycarousel"></li>
+			<li data-slide-to="3" data-grid="mycarousel"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="item active">
+			<h5 style="padding: 10px; font-family: Times New Roman">SyncHR is very pleased with Shreeyansh Postgres Services. They are an excellent Remote DBA partner with deep expertise in Postgres.  Their service delivery model is reasonably priced with flexible on-call availability.</h5>
+<p style="text-align: center; font-family: Times New Roman">John Cuellar, CTO, SyncHR News Laptop Mockup</p>
+			</div>
+
+			<div class="item">
+				<h5 style="padding: 10px; font-family: Times New Roman"> Prashanth provided Remote DBA services as a hands-on manager of a small remote team.
+    He was very reliable and highly helpful partner.
+    Prashanth and his team were great help in the process of migrating our large Postgres installation to a new data center. Prashanth demonstrated great technical expertise and ability to solve problems.
+    He also efficiently managed his team to provide at most value to us as their customers.
+    If I need a remote DBA, I will work with Prashanth again.</h5>
+	<p style="text-align: center; font-family: Times New Roman">Igor Polishchuk -Database Specialist News Laptop Mockup</p>
+			</div>
+
+			<div class="item">
+				<h5 style="font-family: Times New Roman; padding: 10px"> We were fortunate enough to have chosen Shreeyansh Technologies as a partner for a very large PostgreSQL project. They were professional, effective, and communicated well. Our project required a lot of flexibility and they were very gracious in working with us. The technical expertise, suggestions, and perspectives they shared had real impact on our successful project.</h5>
+			<p style="text-align: center; font-family: Times New Roman">Patrick Greenwald - Software Architect, Novarad News Laptop Mockup</p>
+				
+			</div>
+		</div>
+	</div>
+		</div><br><br>
+
+	<div style="background-color: powderblue; text-align: center; padding: 10px">
+		<h1 style="padding: 10px; font-family: Times New Roman; color: navy">DBA Consulting and Services End-to-End</h1>
+		<p style="font-family: Times New Roman">We, the team of DBA professionals provide genuiene valuable guidance to the customer in understanding DB pain points and recommending end-to-end database solutions by taking away all database worries with help of our premium 24X7(365 days) remote DBA services that includes complete monitoring, weekend maintanance, On call support keeping optimum performance, scale-ability, high availibility with minimal or zero data loss & downtime along with disaster recovery options to maintain the bussiness continuity.</p>
+	</div><br><br>
+
+	<div class="row">
+		<div class="col-sm-4">
+			<a href="#"><span class="glyphicon glyphicon-tasks" style="font-size: 25px; color: navy margin-right: -25px"></span></a>
+			<h4 style="text-align: center; color: navy; font-family: Times New Roman">Horizontal Scalability</h4>
+			<p>Our DBA experts recommend horizontal scale out design model that helps the servers to build horizontally by adding low cost commodity hardware resulting towards improved performance, high availability (HA) with more flexibility to add the servers on the fly without any downtime thus removing single point of failures.</p>
+		</div>
+
+		<div class="col-sm-4">
+			<a href="#"><span class="glyphicon glyphicon-cog" style="font-size: 25px; color: navy margin-right: -25px"></span></a>
+			<h4 style="text-align: center; color: navy; font-family: Times New Roman">Maintainance</h4>
+			<p>Post production enhancement and maintenance are essential to keep the system supportive to Business. Syhreeyansh Technologies has a Pool of DBA experts to work as per changing Business needs, client requirements, with the help of our personalized services.</p>
+		</div>
+
+		<div class="col-sm-4">
+			<a href="#"><span class="glyphicon glyphicon-user" style="font-size: 25px; color: navy margin-right: -25px"></span></a>
+			<h4  style="text-align: center; color: navy; font-family: Times New Roman">Architecture Health Check</h4>
+			<p>The architecture health check reviews your current database environment and understand the planned operations of your database system and business application. Generates recommendations to improve the database system’s performance, and ensure a robust and healthy business application with a structure capable of scaling beyond current requirements.</p>
+		</div>
+	</div><br>
+
+	<div class="row">
+		<div class="col-sm-4">
+			<a href="#"><span class="glyphicon glyphicon-folder-open" style="font-size: 25px; color: navy margin-right: -25px"></span></a>
+			<h4 style="text-align: center; color: navy; font-family: Times New Roman">Audit</h4>
+			<p>Audit offerings enables to monitor the end user regular,suspicious activities that helps to take proactive measures towards the database where
+security, reliability of production database is the key to have optimum intact performance.</p>
+		</div>
+
+		<div class="col-sm-4">
+			<a href="#"><span class="glyphicon glyphicon-cog" style="font-size: 25px; color: navy margin-right: -25px"></span></a>
+			<h4 style="text-align: center; color: navy; font-family: Times New Roman">Migration</h4>
+			<p>Migrating is often a risky, expensive, and time-consuming process. However, Shreeyansh Technologies has great expertise in migrating proprietary databases like Oracle, MS SQL Server and MySQL to World’s Most Advanced Open Source Database – PostgreSQL.</p>
+		</div>
+
+		<div class="col-sm-4">
+			<a href="#"><span class="glyphicon glyphicon-cd" style="font-size: 25px; color: navy margin-right: -25px"></span></a>
+			<h4  style="text-align: center; color: navy; font-family: Times New Roman">High Availability</h4>
+			<p>High Availability is not just a technology but also determined by your speed of fixing any problems that happen.Shreeyansh has proven record to ensure high database availability.</p>
+		</div>
+	</div>
+
+	<div style="background-color: powderblue; color: navy">
+		<h1 style="text-align: center; padding: 10px; font-family: Times New Roman"> Our Clients</h1>
+		<div id="mycarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+			<li data-slide-to="0" class="active" data-grid="mycarousel"></li>
+			<li data-slide-to="1" data-grid="mycarousel"></li>
+			<li data-slide-to="2" data-grid="mycarousel"></li>
+			<li data-slide-to="3" data-grid="mycarousel"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="item active">
+				<a href="edb.png"></a>
+			</div>
+
+			<div class="item">
+				<a href="favicon.ico"></a>
+			</div>
+
+			<div class="item">
+				
+			</div>
+		</div>
+	</div>
+		</div><br><br>
+
+		<div class="row" style="background-color: powderblue; color: navy">
+		<div class="col-sm-3">
+			<p style="margin-top: 90px">The team of Database experts, provides end-2-end DBA consulting and development services.</p>
+			<a href="#" style="color: navy">Know More about us.</a>
+		</div>
+
+		<div class="col-sm-3">
+			<p style="margin-top: 10px"><b>CONTACT INFO</b></p><br>
+			<a href="#"><span class="glyphicon glyphicon-home"></span></a><p>Shreeyansh DB Software Pvt Ltd</p><br>
+			<a href="#"><span class="glyphicon glyphicon-map-marker"></span></a><p>Office No: 14, 'B' Building, G-O Square, Wakad, Pune - 411057</p><br>
+			<a href="#"><span class="glyphicon glyphicon-phone"></span></a><p>+91-955-268-7400</p><br>
+			<a href="#"><span class="glyphicon glyphicon-envelope"></span></a><p>sales[at]shreeyansh[dot]com</p><br>
+			<a href="#"><span class="glyphicon glyphicon-globe"></span></a><p>shreeyansh.com/</p>
+		</div>
+
+		<div class="col-sm-3">
+			<p style="margin-top: 10px"><b>FACEBOOK</b></p>
+		</div>
+
+		<div class="col-sm-3">
+			<p style="margin-top: 10px"><b>Our Services</b></p><br>
+			<a href="#" style="color: navy">Consulting Services</a><br><br><br>
+			<a href="#" style="color: navy">Migration Services</a><br><br><br>
+			<a href="#" style="color: navy">Remote DBA Services</a><br><br><br>
+			<a href="#" style="color: navy">Saving Calculator - Save Your Invetment With PostgreSQL</a><br><br><br>
+			<a href="#" style="color: navy">Training Services</a><br><br><br>
+		</div>
+	</div>
+<br><br>
+		<footer style="background-color: powderblue; font-family: Times New Roman; color: navy">&copy 2018 — Shreeyansh DB Software Pvt Ltd | Recognized by Government Of India / Ministry of Commerce and Industry under</footer>
+	</div>
+</body>
+</html>
