@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shreeyansh DB Software Pvt Ltd</title>
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+<style type="text/css">
+	a:hover
+	{
+		border: 1px navy;
+		color: navy;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	h3:hover
+	{
+		border: 1px navy;
+		color: navy;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	p:hover
+	{
+		border: 1px navy;
+		color: navy;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	#list ul li
+	{
+		list-style: none;
+		/*float: 500px;*/
+	}
+</style>
+
+</head>
+<body>
+	<div class="container">
+		<nav style="background-color: powderblue">
+		<div class="row">
+			<div class="col-md-4" style="margin-top: 30px;">
+				<img src="logo.png" style="width: 40%; height: 40%">
+			</div>
+			<div class="col-md-8" style="margin-left: 50px" id="list">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="shreeyansh.html">Home</a></li>
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="block1.html">About Us <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li style="background-color: powderblue; color: navy"><a href="block1.html">About</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="channelpatner.html">Channel Patner</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="news.html">News</a></li>
+						</ul></li>
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">PostgreSQL<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li style="background-color: powderblue; color: navy"><a href="whypostgre.html">Why PostgreSQL</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="postgrefeatures.html">PostgreSQL Features</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="postgreused.html">Where PostgreSQL Used</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="postgrefaq.html">PostgreSQL FAQ</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="postgredownload.html">PostgreSQL Downloads</a></li>
+						</ul></li>
+					<li><a href="block4.html">Case Study</a></li>
+					<li><a href="block5.html">Gallery</a></li>				
+					<li><a href="block6.html">Contact Us</a></li>
+					<li>	<a href="login.html">Login</a></li>
+			
+				</ul>
+			</div>
+
+			<!-- <marquee style="background-color: powderblue; color: navy; scroll-behavior: alternate; font-size: 20px;">Why PostgreSQL</marquee> -->
+		</div>
+	</nav><br><br>
+	<marquee style="background-color: powderblue; color: navy; scroll-behavior: alternate; font-size: 20px;">Why PostgreSQL</marquee><br><br>
+
+	<img src="PSQL.png" style="width: 720px"><br><br>
+
+	<div style="background-color: powderblue; ">
+		<h4 style="color: navy; padding: 20px"><q>    PostgreSQL is “The world’s most advanced Open Source Database Management System” developed by a worldwide team of Community. </q></h4>
+		<p style=" padding: 20px">PostgreSQL is free of cost and it is not controlled by any private entity. It’s possible for anyone to use and modify the software. Anybody can download the Open Source Software and use it without any license cost and if needed the source code can be changed as per the business needs. The development community members are spread across the world and all world class powerful mind’s continuous customer centric efforts lead PostgreSQL to compete with other proprietary database software vendors in the market resulting great increase in PostgreSQL deployments worldwide because of its advanced features keeping with its pride “The world’s most advanced open source database management system”.</p>
+	</div>
+
+	<div class="row" style="font-family: Times New Roman">
+		<div class="col-sm-6">
+			<h3 style="text-align: center;">DEVELOPMENT LIFE CYCLE</h3>
+			<ul>
+				<li>24 RELEASES SINCE 1995</li><br>
+				<li>FASTER RELEASE CYCLES IN THE LAST 5 YEARS</li><br>
+				<li>SOFTWARE RELEASES LIFE CYCLE  – 1+ ALPHA RELEASE, 1+ BETA RELEASE, RELEASE CANDIDATE</li><br>
+				<li>STABLE VERSION RELEASE HAPPENS IN 3rd QUARTER</li><br>
+				<li>STAKEHOLDERS: SPONSERS, PROFESSIONALS, RESEARCHERS</li><br>
+				<li>MAXIMUM MAINTANCE PostgreSQL RELEASE LIFE CYCLE IN COMMUNITY – 5 YEARS</li><br>
+			</ul>
+		</div>
+		<div class="col-sm-6">
+			<h3 style="text-align: center;">OPEN SOURCE COMMUNITY</h3>
+			<ul>
+				<li>SENSE OF COMMUNITY</li><br>
+				<li>DEVELOPERS, USER</li><br>
+				<li>VOLUNTEERS AND PROFESSIONALS</li><br>
+				<li>GREAT MEMBERS SUPPORT FROM ALL OVER THE WORLD</li><br>
+			</ul>
+		</div>
+	</div>
+
+	<div class="row" style="font-family: Times New Roman">
+		<div class="col-sm-6">
+			<h3 style="text-align: center;">LICENSE</h3>
+			<ul>
+				<li>LIBREAL OPEN SOURCE LICENSE</li><br>
+				<li>APPLIES TO EVERY PART (MODULE, PRODUCT, OPTION) OF PostgreSQL</li><br>
+				<li>PERMISSION TO COPY, MODIFY, DISTRIBUTE AND DOCUMENTS WITHOUT FEE.</li><br>
+				<li>COMPLETLY 100% OPEN SOURCE</li><br>
+				<li>NO MONOPOLY</li><br>
+				<li>NO FEAR OF ACQUISITIONS</li><br>
+				<li>NO VENDOR LOCKING</li><br>
+			</ul>
+		</div>
+		<div class="col-sm-6">
+			<h3 style="text-align: center;">QUALITY</h3>
+			<ul>
+				<li>WRITTEN IN C (MULTI-PLATFORM)</li><br>
+				<li>PORTABLE</li><br>
+				<li>SOLID FOUNDATIONS</li><br>
+				<li>ANSI/ISO STANDARADS</li><br>
+				<li>SQL COMPLAINT</li><br>
+				<li>ACID PROPERTIES</li><br>
+				<li>COMMUNITY DEVELOPMENT</li><br>
+				<li>MVCC</li><br>
+				<li>DOCUMENTATIONS AND PDF’s ARE AVAILABLE.</li><br>
+			</ul>
+		</div>
+	</div>
+
+
+<div class="row" style="font-family: Times New Roman">
+		<div class="col-sm-6">
+			<h3 style="text-align: center;">BUSINESS CONTINUITY</h3>
+			<ul>
+				<li>RELIBILITY AND DATA INTYGRITY</li><br>
+				<li>SCALABLE</li><br>
+				<li>DURABILITY</li><br>
+				<li>SECURITY WITH ADVANCED OPTIONS</li><br>
+				<li>DATA SAFETY – BACKUP/RECOVERY</li><br>
+				<li>RECOVERY POINT OBJECTIVE & RECOVERY TIME OBJECTIVE</li><br>
+				<li>DATABASE REPLICATION</li><br>
+				<li>HIGH AVAILABILITY</li><br>
+				<li>DISASTER SITE BUILDS</li><br>
+			</ul>
+		</div>
+		<div class="col-sm-6">
+			<h3 style="text-align: center;">SECURITY AND DATA PROTECTION</h3>
+			<ul>
+				<li>SECURE TCP/IP CONNECTIONS USING SSL</li><br>
+				<li>CRYPTOGRAPHIC FUNCTIONS</li><br>
+				<li>GROUP AND USER PERMISSIONS</li><br>
+				<li>MULTI-LAYER SECURITY MODEL</li><br>
+				<li>NO MONOPLY</li><br>
+				<li>COLUMN AND ROW LEVEL SECURITY</li><br>
+				<li>SECURITY-ENHANCED LINUX</li><br>
+			</ul>
+		</div>
+	</div>
+
+	<div class="row" style="font-family: Times New Roman">
+		<div class="col-sm-6">
+			<h3 style="text-align: center;">EXTERNAL TOOLS AND LIBRARIES</h3>
+			<ul>
+				<li>GIS: PostGIS, PGROUTING</li><br>
+				<li>ADMIN: PgAdmin</li><br>
+				<li>CONTINUITY & SCALABILITY: PL/Proxy, PgPool, PgBouncer, Pgbadge</li><br>
+				<li>THIRD PARTY TOOLS</li><br>
+				<li>OPEN SOURCE TOOLS</li><br>
+				<li>COMMERCIAL TOOLS</li><br>
+			</ul>
+		</div>
+		<div class="col-sm-6">
+			<h3 style="text-align: center;">PERFORMANCE AND SCALABILITY</h3>
+			<ul>
+				<li>FASTER DATA EXECUTION</li><br>
+				<li>RESPONSE TIME & THROUGHPUT</li><br>
+				<li>I/O ACCESS</li><br>
+				<li>INDEXES</li><br>
+				<li>PARTITIONING</li><br>
+				<li>TABLESPACES</li><br>
+				<li>WARM/HOT STANDBY</li><br>
+				<li>DATA/QUERY DISTRIBUTION</li><br>
+				<li>REPLICATION</li><br>
+				<li>DISASTER SITE</li><br>
+				<li>CONNECTION POOLING</li><br>
+				<li>LOAD BALANCING</li><br>
+			</ul>
+		</div>
+	</div>
+
+	<div class="row" style="font-family: Times New Roman">
+		<div class="col-sm-6" style="margin-left: 150px">
+			<h3 style="text-align: center;">SUPPORT & SERVICES</h3>
+			<ul>
+				<li>MANY ENTITIES EXIXTS IN THE MARKET TO PROVIDE SUPPORT AND SERVICES FOR PostgreSQL</li><br>
+				<li>NO FEAR/WORRIES ABOUT SUPPORT/SERVICES</li><br>
+				<li>ONSITE AND REMOTE DBA SERVICES AVAILABLE</li><br>
+				<li>MIGRATION EXPERTS AVAILABLE TO SAVE HUGE COSTS.</li><br>
+				<li>OPEN SOURCE TOOLS</li><br>
+				<li>COMMERCIAL TOOLS</li><br>
+			</ul>
+		</div>
+	</div>
+
+	<div class="row" style="background-color: powderblue; color: navy">
+		<div class="col-sm-3">
+			<p style="margin-top: 90px">The team of Database experts, provides end-2-end DBA consulting and development services.</p>
+			<a href="#" style="color: navy">Know More about us.</a>
+		</div>
+
+		<div class="col-sm-3">
+			<p style="margin-top: 10px"><b>CONTACT INFO</b></p><br>
+			<a href="#"><span class="glyphicon glyphicon-home"></span></a><p>Shreeyansh DB Software Pvt Ltd</p><br>
+			<a href="#"><span class="glyphicon glyphicon-map-marker"></span></a><p>Office No: 14, 'B' Building, G-O Square, Wakad, Pune - 411057</p><br>
+			<a href="#"><span class="glyphicon glyphicon-phone"></span></a><p>+91-955-268-7400</p><br>
+			<a href="#"><span class="glyphicon glyphicon-envelope"></span></a><p>sales[at]shreeyansh[dot]com</p><br>
+			<a href="#"><span class="glyphicon glyphicon-globe"></span></a><p>shreeyansh.com/</p>
+		</div>
+
+		<div class="col-sm-3">
+			<p style="margin-top: 10px"><b>FACEBOOK</b></p>
+		</div>
+
+		<div class="col-sm-3">
+			<p style="margin-top: 10px"><b>Our Services</b></p><br>
+			<a href="#" style="color: navy">Consulting Services</a><br><br><br>
+			<a href="#" style="color: navy">Migration Services</a><br><br><br>
+			<a href="#" style="color: navy">Remote DBA Services</a><br><br><br>
+			<a href="#" style="color: navy">Saving Calculator - Save Your Invetment With PostgreSQL</a><br><br><br>
+			<a href="#" style="color: navy">Training Services</a><br><br><br>
+		</div>
+	</div>
+<br><br>
+		<footer style="background-color: powderblue; font-family: Times New Roman; color: navy">&copy 2018 — Shreeyansh DB Software Pvt Ltd | Recognized by Government Of India / Ministry of Commerce and Industry under</footer>
+	</div>
+</body>
+</html>
