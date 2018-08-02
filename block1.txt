@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shreeyansh DB Software Pvt Ltd</title>
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+<style type="text/css">
+	a:hover
+	{
+		border: 1px navy;
+		color: navy;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	h3:hover
+	{
+		border: 1px navy;
+		color: navy;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	p:hover
+	{
+		border: 1px navy;
+		color: navy;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	li:hover
+	{
+		border: 1px navy;
+		color: navy;
+		padding: 10px;
+		text-decoration: none;	
+	}
+
+	#list ul li
+	{
+		list-style: none;
+		/*float: 500px;*/
+	}
+</style>
+
+</head>
+<body>
+	<div class="container">
+
+		<nav style="background-color: powderblue">
+		<div class="row">
+			<div class="col-md-4" style="margin-top: 30px;">
+				<img src="logo.png" style="width: 40%; height: 40%">
+			</div>
+			<div class="col-md-8" style="margin-left: 50px" id="list">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="shreeyansh.html">Home</a></li>
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="block1.html">About Us <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li style="background-color: powderblue; color: navy"><a href="block1.html">About</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="channelpatner.html">Channel Patner</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="news.html">News</a></li>
+						</ul></li>
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">PostgreSQL<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li style="background-color: powderblue; color: navy"><a href="whypostgre.html">Why PostgreSQL</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="postgrefeatures.html">PostgreSQL Features</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="postgreused.html">Where PostgreSQL Used</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="postgrefaq.html">PostgreSQL FAQ</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="postgredownload.html">PostgreSQL Downloads</a></li>
+						</ul></li>
+					<li><a href="block4.html">Case Study</a></li>
+					<li><a href="block5.html">Gallery</a></li>				
+					<li><a href="block6.html">Contact Us</a></li>
+					<li>	<a href="login.html">Login</a></li>
+			
+				</ul>
+			</div>
+		</div>
+	</nav><br><br>
+		<div class="row" style="font-family: Times New Roman">
+		<div class="col-sm-6">
+			<h3 style="text-align: center;">Who We Are </h3>
+			<p style="text-align: justify-all;">Shreeyansh DB Software Pvt Ltd founded by Prashanth Ranjalkar in 2016 as a single stop Database Solution Company who is an authority in providing innovative database open source solutions. Prior to this incorporation, We have provided various professional support & services in Open Source as well as enterprise databases under proprietorship “Shreeyansh Technologies” since 2013. Founder has spent 20+ years in various database technologies like PostgreSQL, EDB Postgres Advanced Server (EnterpriseDB), Oracle, MS SQL Server, MySQL. The company strongly believes that future lies in the open source based technologies and is committed to expand this space by pro-actively being a partner, promoter and a facilitator. The company has taken various initiatives through seminars, trainings, conferences in this journey and promises to continue doing so. The company is strategically based in Pune which is a well-known IT hub of India with its customers located across US, Middle East & Asia. The company has expertise in different domains which range from Healthcare, Telecom to public sector Organization. The Company believes in establishing long term relationship with its customer while aiming to become a key strategic partner who not only helps to cut down redundant expenses but also tangibly or intangibly improve their Top Line.</p>
+
+			<p style="text-align: justify-all;">The company values the sanctity and security of its customer data and has the infrastructure like Access Control, Video Surveillance and other software and hardware means to take utmost care of the data. The company has an excellent team which has extensive experience and exposure to deliver superior performance consistently. It has an infrastructure to support 24×7 service support and has the flexibility to work as per customer needs and wants.</p>
+		</div>
+		<div class="col-sm-6">
+			<h3 style="text-align: center;">Our Core Values</h3>
+			<ul>
+				<li>HONESTY AND QUALITY</li><br><br>
+				<li>DEDICATION AND HARDWORK</li><br><br>
+				<li>CONSISTENCY</li><br><br>
+				<li>PROACTIVE APPROACH</li><br><br>
+				<li>GENUINE EXPERT GUIDANCE TO THE CUSTOMER</li><br><br>
+				<li>ALWAYS TRY TO PROVIDE BEST NEVER COMPROMISE ON QUALITY</li><br><br>
+				<li>BUILD THE LONG TERM RELATIONSHIPS WITH OUR WORK/CULTURE</li><br><br>
+				<li>HELP IN GROWTH OF THE CUSTOMER BUSINESS</li><br><br>
+				<li>ALWAYS TODO ATTITUDE</li><br><br>
+			</ul>
+		</div>
+	</div>
+
+	<div style="background-color: powderblue; color: navy; padding: 10px; font-family: Times New Roman">
+		<h3 style="text-align: center;">Our Skills</h3><br>
+<div class="row">
+	<div class="col-md-8">
+		<p><b>DATABASE CONSULTING<b style="margin-left: 550px">90%</b></b></p>
+		<progress value="90" max="100" style="height: 15px; width: 650px;">
+	</div>
+
+	<div class="col-md-8">
+		<p><b>DATABASE MIGRATIONS<b style="margin-left: 550px">85%</b></b></p>
+		<progress value="85" max="100" style="height: 15px; width: 650px;">
+	</div>
+		
+	<div class="col-md-8">
+		<p><b>MAINTENANCE AND MONITORING SERVICES<b style="margin-left: 570px">95%</b></b></p>
+		<progress value="95" max="100" style="height: 15px; width: 650px;">
+	</div>
+
+	<div class="col-md-8">
+		<p><b>DATABASE HEALTH CHECK<b style="margin-left: 590px">92%</b></b></p>
+		<progress value="92" max="100" style="height: 15px; width: 650px;">
+	</div>
+
+	<div class="col-md-8">
+		<p><b>REPLICATION AND DISASTER RECOVERY SERVICES<b style="margin-left: 570px">95%</b></b></p>
+		<progress value="95" max="100" style="height: 15px; width: 650px;">
+	</div>
+
+	<div class="col-md-8">
+		<p><b>HIGH AVAILABILITY WITH CLUSTRING SOLUTIONS<b style="margin-left: 560px">80%</b></b></p>
+		<progress value="80" max="100" style="height: 15px; width: 650px;">
+	</div>
+
+	<div class="col-md-8">
+		<p><b>REMOTE DBA SERVICES<b style="margin-left: 570px">98%</b></b></p>
+		<progress value="98" max="100" style="height: 15px; width: 650px;">
+	</div>
+
+	<div class="col-md-8">
+		<p><b>TRAINING<b style="margin-left: 570px">82%</b></b></p>
+		<progress value="82" max="100" style="height: 15px; width: 650px;">
+	</div>
+		</div>
+		</div><br>
+
+		<div>
+			<h3 style="text-align: center;">Meet Our Leadership Team</h3>
+			<div id="mycarousel" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-slide-to="0" class="active" data-grid="mycarousel"></li>
+			<li data-slide-to="1" data-grid="mycarousel"></li>
+			<li data-slide-to="2" data-grid="mycarousel"></li>
+			<li data-slide-to="3" data-grid="mycarousel"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="item active">
+				<center><img src="founder.jpg"></center>
+				<a href="#" style="margin-left: 300px">Prashanth Ranjalkar</a><br>
+				<h6 style="margin-left: 320px">Founder & CEO</h6>
+				<a href="#" style="margin-left: 320px">View Profile</a>
+				
+			</div>
+
+		</div>
+	</div><br><br>
+		</div>
+
+		<div class="row" style="background-color: powderblue; color: navy">
+		<div class="col-sm-3">
+			<p style="margin-top: 90px">The team of Database experts, provides end-2-end DBA consulting and development services.</p>
+			<a href="#" style="color: navy">Know More about us.</a>
+		</div>
+
+		<div class="col-sm-3">
+			<p style="margin-top: 10px"><b>CONTACT INFO</b></p><br>
+			<a href="#"><span class="glyphicon glyphicon-home"></span></a><p>Shreeyansh DB Software Pvt Ltd</p><br>
+			<a href="#"><span class="glyphicon glyphicon-map-marker"></span></a><p>Office No: 14, 'B' Building, G-O Square, Wakad, Pune - 411057</p><br>
+			<a href="#"><span class="glyphicon glyphicon-phone"></span></a><p>+91-955-268-7400</p><br>
+			<a href="#"><span class="glyphicon glyphicon-envelope"></span></a><p>sales[at]shreeyansh[dot]com</p><br>
+			<a href="#"><span class="glyphicon glyphicon-globe"></span></a><p>shreeyansh.com/</p>
+		</div>
+
+		<div class="col-sm-3">
+			<p style="margin-top: 10px"><b>FACEBOOK</b></p>
+		</div>
+
+		<div class="col-sm-3">
+			<p style="margin-top: 10px"><b>Our Services</b></p><br>
+			<a href="#" style="color: navy">Consulting Services</a><br><br><br>
+			<a href="#" style="color: navy">Migration Services</a><br><br><br>
+			<a href="#" style="color: navy">Remote DBA Services</a><br><br><br>
+			<a href="#" style="color: navy">Saving Calculator - Save Your Invetment With PostgreSQL</a><br><br><br>
+			<a href="#" style="color: navy">Training Services</a><br><br><br>
+		</div>
+	</div>
+<br><br>
+		<footer style="background-color: powderblue; font-family: Times New Roman; color: navy">&copy 2018 — Shreeyansh DB Software Pvt Ltd | Recognized by Government Of India / Ministry of Commerce and Industry under</footer>
+	</div>
+</body>
+</html>
