@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shreeyansh DB Software Pvt Ltd</title>
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+<style type="text/css">
+	a:hover
+	{
+		border: 1px navy;
+		color: navy;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	h3:hover
+	{
+		border: 1px navy;
+		color: navy;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	p:hover
+	{
+		border: 1px navy;
+		color: navy;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	#list ul li
+	{
+		list-style: none;
+		/*float: 500px;*/
+	}
+</style>
+</head>
+<body>
+
+	<div class="container">
+		<nav style="background-color: powderblue">
+		<div class="row">
+			<div class="col-md-4" style="margin-top: 30px;">
+				<img src="logo.png" style="width: 40%; height: 40%">
+			</div>
+			<div class="col-md-8" style="margin-left: 50px" id="list">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="shreeyansh.html">Home</a></li>
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="block1.html">About Us <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li style="background-color: powderblue; color: navy"><a href="block1.html">About</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="channelpatner.html">Channel Patner</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="news.html">News</a></li>
+						</ul></li>
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">PostgreSQL<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li style="background-color: powderblue; color: navy"><a href="whypostgre.html">Why PostgreSQL</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="postgrefeatures.html">PostgreSQL Features</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="postgreused.html">Where PostgreSQL Used</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="postgrefaq.html">PostgreSQL FAQ</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="postgredownload.html">PostgreSQL Downloads</a></li>
+						</ul></li>
+					<li><a href="block4.html">Case Study</a></li>
+					<li><a href="block5.html">Gallery</a></li>				
+					<li><a href="block6.html">Contact Us</a></li>
+					<li>	<a href="login.html">Login</a></li>
+			
+				</ul>
+			</div>
+		</div>
+	</nav><br><br>
+
+	<marquee style="background-color: powderblue; color: navy; scroll-behavior: alternate; font-size: 20px">PostgreSQL Features</marquee>
+
+	<div class="row" style="font-family: Times New Roman">
+		<div class="col-sm-6">
+			<h3 style="text-align: center;">Features in PostgreSQL 9.4/9.5</h3>
+			<ul>
+				<li>WRITTEN in ANSI C</li><br>
+				<li>SUPPORTS WINDOWS, LINUX, MAC Os/x AND MAJOR UNIX PLATFORMS</li><br>
+				<li>RELIABLE</li><br>
+				<li>ACID COMPLAINT</li><br>
+				<li>PORTABLE</li><br>
+				<li>SUPPORTS TRANSACTIONS</li><br>
+				<li>USES MULTI-VERSION CONCURANCY CONTROL</li><br>
+				<li>SUPPORTS ONLINE BACKUP</li><br>
+				<li>SUPPORTS FULL RECOVERY AND POINT-IN-TIME RECOVERY</li><br>
+				<li>REPLICATION SUPPORT</li><br>
+				<li>SUPPORT FOR HIGH AVAILABILITY</li><br>
+				<li>SUPPORTS CONNECTION POOLING</li><br>
+				<li>GRANT/REVOKE ALL TABLES IN SCHEMA</li><br>
+				<li>FULL SUPPORT FOR 64-bit WINDOWS</li><br>
+				<li>PER COLUMN TRIGGERS AND CONDITIONAL TRIGGER EXECUTION</li><br>
+				<li>INDEX ONLY SCANS</li><br>
+				<li>SUPPORTS DROP INDEX CONCURRENTLY</li><br>
+				<li>JSON DATA TYPE AND RANGE TYPES</li><br>
+				<li>OUTPUT IN Json, Xml, OR Yaml</li><br>
+				<li>RADIUS (REMOTE AUTHENTICATION DIAL IN USER SERVICE)</li><br>
+				<li>STREAMING REPLICATION</li><br>
+				<li>HOT STANDBY</li><br>
+				<li>IMPROVMENTS IN REPLICATION</li><br>
+				<li>SUPPORTS TABLE PARTITIONING</li><br>
+				<li>SUPPORTS TABLESPACES</li><br>
+				<li>SECURE</li><br>
+				<li>SUPPORTS LOGGING</li><br>
+				<li>SUPPORTS TRIGGERS & FUNCTIONS</li><br>
+				<li>SUPPORTS CUSTOM PROCEDURAL LANGUAGES</li><br>
+				<li>PL/PgSQL, PL/PERL, PL/TCL, PL/PHP</li><br>
+				<li>LOGICAL DECODING</li><br>
+				<li>REPLICATION IMPROVEMENTS</li><br>
+				<li>REPLICATION SLOTS</li><br>
+				<li>PG_REWIND</li><br>
+				<li>Pg_REWARM</li><br>
+				<li>GIN INDEXES NOW FASTER AND SMALLER</li><br>
+				<li>BRIN INDEXES</li><br>
+				<li>ROW-LEVEL SECURITY</li><br>
+				<li>FOREIGN TABLE INHERITANCE</li><br>
+				<li>ALTER SYSTEM</li><br>
+				<li>REFRESH MATERIALIZED VIEWCONCURRENTLY</li><br>
+				<li>UPDATABLE VIEW IMPROVEMENTS</li><br>
+				<li>SUPPORT VIEWS WITH A MAX OF UPDATABLE/NON-UPDATABLE COLUMNS</li><br>
+				<li>WITH CHECK OPTION</li><br>
+				<li>UPDATABLE SECURITY BARIER VIEWS</li><br>
+				<li>WITH ORDINALITY AGGREGATE FEATURES</li><br>
+				<li>ORDERED-SET AGGREGATES</li><br>
+				<li>AGGREGATE FILTER CLAUSE</li><br>
+				<li>MOVING-AGGREGATE SUPPORT</li><br>
+				<li>State_data_size PARAMETER</li><br>
+				<li>BACKWORDS COMPATIBILTY</li><br>
+				<li>PARRALEL VACUUMING</li><br>
+				<li>CLUSTER_NAME</li><br>
+				<li>GiST INDEX-ONLY SCANS</li><br>
+			</ul>
+		</div>
+		<div class="col-sm-6">
+			<h3 style="text-align: center;">NEW FEATURES IN PostgreSQL 9.6</h3>
+			<ul>
+				<li>REPLICATION IMPROVEMENTS</li><br>
+				<li>MULTIPLE SYNCHRONUS STANDBY</li><br>
+				<li>REMOTE_APPLY_MODE</li><br>
+				<li>PARALLEL QUERY</li><br>
+				<li>PERFORMANCE</li><br>
+				<li>FROZEN PAGE MAP</li><br>
+				<li>BETTER TEXT SEARCH WITH PHRASES</li><br>
+				<li>GENERIC WAL FACILITY</li><br>
+				<li>COMMAND PROGRESS REPORTING</li><br>
+				<li>CASCADE SUPPORT FOR INSTALLING EXTENSIONS</li><br>
+				<li>WAIT EVENT SUPPORT</li><br>
+			</ul>
+
+			<h3 style="text-align: center;">NEW USEFUL EXTENSIONS</h3>
+			<ul>
+				<li>PG_VISIBILITY</li><br>
+				<li>PgAudit</li><br>
+				<li>PgBadger-9.0</li><br>
+				<li>Barman-2.0</li><br>
+				<li>OPEN PostgreSQL MONITORING(OPM)</li><br>
+				<li>Pg_PARTMAN & MORE</li><br>
+			</ul>
+		</div>
+	</div>
+
+	<div class="row" style="background-color: powderblue; color: navy">
+		<div class="col-sm-3">
+			<p style="margin-top: 90px">The team of Database experts, provides end-2-end DBA consulting and development services.</p>
+			<a href="#" style="color: navy">Know More about us.</a>
+		</div>
+
+		<div class="col-sm-3">
+			<p style="margin-top: 10px"><b>CONTACT INFO</b></p><br>
+			<a href="#"><span class="glyphicon glyphicon-home"></span></a><p>Shreeyansh DB Software Pvt Ltd</p><br>
+			<a href="#"><span class="glyphicon glyphicon-map-marker"></span></a><p>Office No: 14, 'B' Building, G-O Square, Wakad, Pune - 411057</p><br>
+			<a href="#"><span class="glyphicon glyphicon-phone"></span></a><p>+91-955-268-7400</p><br>
+			<a href="#"><span class="glyphicon glyphicon-envelope"></span></a><p>sales[at]shreeyansh[dot]com</p><br>
+			<a href="#"><span class="glyphicon glyphicon-globe"></span></a><p>shreeyansh.com/</p>
+		</div>
+
+		<div class="col-sm-3">
+			<p style="margin-top: 10px"><b>FACEBOOK</b></p>
+		</div>
+
+		<div class="col-sm-3">
+			<p style="margin-top: 10px"><b>Our Services</b></p><br>
+			<a href="#" style="color: navy">Consulting Services</a><br><br><br>
+			<a href="#" style="color: navy">Migration Services</a><br><br><br>
+			<a href="#" style="color: navy">Remote DBA Services</a><br><br><br>
+			<a href="#" style="color: navy">Saving Calculator - Save Your Invetment With PostgreSQL</a><br><br><br>
+			<a href="#" style="color: navy">Training Services</a><br><br><br>
+		</div>
+	</div>
+<br><br>
+		<footer style="background-color: powderblue; font-family: Times New Roman; color: navy">&copy 2018 — Shreeyansh DB Software Pvt Ltd | Recognized by Government Of India / Ministry of Commerce and Industry under</footer>
+	</div>
+</body>
+</html>
