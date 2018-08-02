@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shreeyansh DB Software Pvt Ltd</title>
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+<style type="text/css">
+	a:hover
+	{
+		border: 1px navy;
+		color: navy;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	h3:hover
+	{
+		border: 1px navy;
+		color: navy;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	p:hover
+	{
+		border: 1px navy;
+		color: navy;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	#list ul li
+	{
+		list-style: none;
+		/*float: 500px;*/
+	}
+</style>
+</head>
+<body>
+
+	<div class="container">
+		<nav style="background-color: powderblue">
+		<div class="row">
+			<div class="col-md-4" style="margin-top: 30px;">
+				<img src="logo.png" style="width: 40%; height: 40%">
+			</div>
+			<div class="col-md-8" style="margin-left: 50px" id="list">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="shreeyansh.html">Home</a></li>
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="block1.html">About Us <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li style="background-color: powderblue; color: navy"><a href="block1.html">About</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="channelpatner.html">Channel Patner</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="news.html">News</a></li>
+						</ul></li>
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">PostgreSQL<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li style="background-color: powderblue; color: navy"><a href="whypostgre.html">Why PostgreSQL</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="postgrefeatures.html">PostgreSQL Features</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="postgreused.html">Where PostgreSQL Used</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="postgrefaq.html">PostgreSQL FAQ</a></li>
+							<li style="background-color: powderblue; color: navy"><a href="postgredownload.html">PostgreSQL Downloads</a></li>
+						</ul></li>
+					<li><a href="block4.html">Case Study</a></li>
+					<li><a href="block5.html">Gallery</a></li>				
+					<li><a href="block6.html">Contact Us</a></li>
+					<li>	<a href="login.html">Login</a></li>
+			
+				</ul>
+			</div>
+		</div>
+	</nav><br><br>
+
+	<marquee style="background-color: powderblue; color: navy; scroll-behavior: alternate; font-size: 20px">Channel Patners</marquee><br><br>
+
+	<div class="row" style="font-family: Times New Roman">
+		<div class="col-sm-6">
+			<!-- <h3 style="text-align: center;">Who We Are </h3> -->
+			<p>SriyamSoft, a leading US (Austin, Texas) based Organization launched a unique product called “BIRDonCloud”, which is helping Organizations in reducing their IT costs that is spent on business intelligence, reporting & analytics. The product is based on Machine Learning and Elastic In-memory Database, to address the needs of BI, Reporting, Analytics and Data challenges in Organizations. Our strategic channel partners worldwide help us in sales /marketing /implementation /consulting of our niche product across the globe.</p>
+
+			<p>For your reference, using our product, we have automated reporting with our Machine Learning Engine and Elastic In-memory Database (BIGDATA) against Oracle ERP, Microsoft Dynamics AX ERP, Navision ERP, PeopleSoft, SiebelCRM, vTiger, SugarCRM, OpenERP and other home grown databases. Without human intervention, our engine will be able to generate automated reports on any kind of data source by crawling the metadata of the source. Our in-built bigdata architecture helps organization in processing real-time or historical data, in order to identify trends/insights etc.</p>
+		</div>
+		
+	</div>
+
+ 	<div>
+ 		<h3>BIRDonCloud Product - BI & Reporting Product offered on Cloud/On-premises</h3>
+ 		<ul>
+ 			<li>Definition - BIRDonCloud stands for Business Intelligence Reporting and Data visualization on Cloud/On-premises</li><br>
+ 			<li>Auto-Report Generation / Predictive Reporting - BIRDonCloud is the only 100% self-service BI & Reporting tool in the market that can intelligently crawl through the meta-data of any data source and auto-generate reports at the speed of thought. Based on user search patterns, BIRDonCloud can automatically predict other relevant reports for the user</li><br>
+ 			<li>Predictive Analytics - The product uses advanced machine learning algorithms for predictive analytics, like Deep Learning, K-means, Naïve Bayes etc.</li><br>
+ 			<li>Compatibility - It is designed to work against any data source like flat files, databases, web services, big data sources, streaming data, ERPs, CRM etc.</li><br>
+ 			<li>Scalability - It is designed to work with large data volumes (BIGDATA), as it internally uses an elastic in-memory database. Real-time streaming analytics with storm/kafka/rabbitMQ can be provided with BIRDonCloud</li><br>
+ 			<li>Multi-device Support - BIRDonCloud's user interface works on all devices like smartphones, tablets, and all browsers</li><br>
+ 			<li>Business Domain Agnostic - The product can fit across any business domain or industry vertical</li><br>
+ 			<li>Data Mashup/Linking Automation - The product can be used to integrate data from multiple data sources to create a single source of truth</li><br>
+ 			<li>Embedding/White labelling - The product can seamlessly integrate into your existing applications or if needed white labelling options can also be considered.</li>
+ 		</ul>
+ 	</div><br><br>
+
+ 	<div style="background-color: powderblue; color: navy">
+ 		<h4 style="text-align: center; padding: 20px">Founded by industry expert, who, 16+ years in IT Industry, worked with 20+ world best logos, including 15+ fortune 100 companies, hundreds of projects, all 5 continents, more than 100 technologies,
+		Enterprise to Open source, still serving...</h4>
+		<p style="text-align: center;">---CodePolicy Technologies Offering---</p>
+
+	<div class="row" style="font-family: Times New Roman">
+		<div class="col-sm-6">
+			<!-- <h3 style="text-align: center;">Who We Are </h3> -->
+			<ul>
+				<li>WEBSITE DEVELOPMENT </li><br>
+				<li>WINFORM APPLICATION DEVELOPMENT</li><br>
+				<li>WEB APPLICATION DEVELOPMENT</li><br>
+				<li>SOCIAL NETWORKING ESTABLISHMENT</li><br>
+				<li>CLOUD COMPUTING</li><br>
+			</ul>
+		</div>
+		<div class="col-sm-6">
+			<!-- <h3 style="text-align: center;">Our Core Values</h3> -->
+			<ul>
+				<li>SEARCH ENGINE OPTIMIZATION (SEO)</li><br>
+				<li>WEBSITE MIGRATION (ENTERPRISE TO OPEN SOURCE AND VICE VERSA)</li><br>
+				<li>PERFORMANCE OPTIMIZATION</li><br>
+				<li>SOFTWARE ARCHTECTURE CONSULTING</li><br>
+				<li>IT CONSULTANT</li><br>
+			</ul>
+		</div>
+	</div>
+ 	</div><br><br>
+
+ 	<div class="row" style="background-color: powderblue; color: navy">
+		<div class="col-sm-3">
+			<p style="margin-top: 90px">The team of Database experts, provides end-2-end DBA consulting and development services.</p>
+			<a href="#" style="color: navy">Know More about us.</a>
+		</div>
+
+		<div class="col-sm-3">
+			<p style="margin-top: 10px"><b>CONTACT INFO</b></p><br>
+			<a href="#"><span class="glyphicon glyphicon-home"></span></a><p>Shreeyansh DB Software Pvt Ltd</p><br>
+			<a href="#"><span class="glyphicon glyphicon-map-marker"></span></a><p>Office No: 14, 'B' Building, G-O Square, Wakad, Pune - 411057</p><br>
+			<a href="#"><span class="glyphicon glyphicon-phone"></span></a><p>+91-955-268-7400</p><br>
+			<a href="#"><span class="glyphicon glyphicon-envelope"></span></a><p>sales[at]shreeyansh[dot]com</p><br>
+			<a href="#"><span class="glyphicon glyphicon-globe"></span></a><p>shreeyansh.com/</p>
+		</div>
+
+		<div class="col-sm-3">
+			<p style="margin-top: 10px"><b>FACEBOOK</b></p>
+		</div>
+
+		<div class="col-sm-3">
+			<p style="margin-top: 10px"><b>Our Services</b></p><br>
+			<a href="#" style="color: navy">Consulting Services</a><br><br><br>
+			<a href="#" style="color: navy">Migration Services</a><br><br><br>
+			<a href="#" style="color: navy">Remote DBA Services</a><br><br><br>
+			<a href="#" style="color: navy">Saving Calculator - Save Your Invetment With PostgreSQL</a><br><br><br>
+			<a href="#" style="color: navy">Training Services</a><br><br><br>
+		</div>
+	</div>
+<br><br>
+		<footer style="background-color: powderblue; font-family: Times New Roman; color: navy">&copy 2018 — Shreeyansh DB Software Pvt Ltd | Recognized by Government Of India / Ministry of Commerce and Industry under</footer>
+	</div>
+</body>
+</html>
